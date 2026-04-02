@@ -1,0 +1,266 @@
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #141414;
+  background:
+    radial-gradient(circle at top left, rgba(255, 255, 255, 0.92), transparent 28%),
+    linear-gradient(135deg, #d7d2c8 0%, #b8b0a3 34%, #7a7469 100%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  font-family: "Segoe UI", "PingFang SC", "Hiragino Sans GB", sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.page-shell {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.page-backdrop {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgba(20, 20, 20, 0.12), transparent 22%),
+    radial-gradient(circle at right center, rgba(255, 255, 255, 0.28), transparent 30%);
+  pointer-events: none;
+}
+
+.page-content {
+  position: relative;
+  margin: 0 auto;
+  padding: 26px 24px 72px;
+}
+
+.hero {
+  margin-bottom: 28px;
+}
+
+.eyebrow {
+  letter-spacing: 0.18em;
+  font-size: 12px;
+  font-weight: 700;
+  color: rgba(20, 20, 20, 0.75);
+}
+
+.hero-title.ant-typography {
+  margin: 0;
+  font-size: 20px;
+  line-height: 0.96;
+  color: #111;
+}
+
+.hero-description.ant-typography {
+  max-width: 780px;
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.8;
+  color: rgba(20, 20, 20, 0.72);
+}
+
+.summary-card,
+.table-card {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(248, 245, 240, 0.84);
+  backdrop-filter: blur(18px);
+  box-shadow: 0 20px 60px rgba(25, 25, 25, 0.14);
+}
+
+.summary-label {
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(20, 20, 20, 0.6);
+}
+
+.summary-value.ant-typography {
+  margin: 8px 0;
+  font-size: 3.5rem;
+  line-height: 1;
+}
+
+.summary-text.ant-typography {
+  margin-bottom: 0;
+  color: rgba(20, 20, 20, 0.68);
+}
+
+.table-card .ant-card-head {
+  border-bottom: none;
+  padding-top: 10px;
+}
+
+.table-card .ant-card-head-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.table-card .ant-card-extra {
+  display: flex;
+  align-items: center;
+}
+
+.record-search {
+  width: min(300px, 48vw);
+}
+
+.ant-table-wrapper .ant-table {
+  background: transparent;
+}
+
+.ant-table-wrapper .ant-table-thead > tr > th {
+  background: rgba(20, 20, 20, 0.06);
+  font-weight: 700;
+}
+
+.ant-table-wrapper .ant-table-tbody > tr > td {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.mobile-records {
+  display: grid;
+  gap: 16px;
+}
+
+.mobile-record-card {
+  padding: 16px;
+  border: 1px solid rgba(20, 20, 20, 0.08);
+  border-radius: 18px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.72), rgba(245, 241, 235, 0.92));
+  box-shadow: 0 10px 24px rgba(20, 20, 20, 0.08);
+}
+
+.mobile-record-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.mobile-rank {
+  display: inline-block;
+  margin-bottom: 6px;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  color: rgba(20, 20, 20, 0.55);
+}
+
+.mobile-record-title.ant-typography {
+  margin: 0;
+  font-size: 22px;
+  line-height: 1.05;
+}
+
+.mobile-time-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  min-width: 74px;
+}
+
+.mobile-time-label {
+  font-size: 12px;
+  color: rgba(20, 20, 20, 0.5);
+}
+
+.mobile-time-value {
+  font-size: 22px;
+  font-weight: 800;
+  color: #101010;
+}
+
+.mobile-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 16px 0 14px;
+}
+
+.mobile-spec-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.mobile-spec-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 10px 12px;
+  border-radius: 14px;
+  background: rgba(20, 20, 20, 0.04);
+}
+
+.mobile-spec-label {
+  font-size: 12px;
+  color: rgba(20, 20, 20, 0.48);
+}
+
+.mobile-spec-value {
+  font-size: 14px;
+  font-weight: 600;
+  color: #111;
+}
+
+@media (max-width: 768px) {
+  .page-content {
+    padding: 32px 16px 48px;
+  }
+
+  .hero {
+    margin-bottom: 18px;
+  }
+
+  .hero-title.ant-typography {
+    font-size: 32px;
+    line-height: 0.94;
+  }
+
+  .hero-description.ant-typography {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .table-card .ant-card-head {
+    padding-inline: 16px;
+    padding-top: 14px;
+  }
+
+  .table-card .ant-card-body {
+    padding: 16px;
+  }
+
+  .table-card .ant-card-head-wrapper {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .table-card .ant-card-extra {
+    margin-inline-start: 0;
+    padding: 0;
+  }
+
+  .record-search {
+    width: 100%;
+  }
+
+  .mobile-record-title.ant-typography {
+    font-size: 20px;
+  }
+
+  .mobile-time-value {
+    font-size: 20px;
+  }
+}
