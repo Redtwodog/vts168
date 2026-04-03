@@ -114,8 +114,8 @@ export const lapRecordVideoMap = {
   33:[{title:"家用奥迪带quattro，赛道表现行不行？【VTS圈速榜】",link:"https://www.bilibili.com/video/BV1kaubz4E16"}],
   34:[{title:"十几万买AMG！A35够快吗？【VTS圈速榜】",link:"https://www.bilibili.com/video/BV1XEWczaETu"}],
   35:[{title:"",link:"https://www.bilibili.com/video/BV1noxpeWEXm"}],
-  36:[{title:"",link:""}],
-  37:[{title:"",link:""}],
+  36:[{title:"",link:"https://www.bilibili.com/video/BV1Cxf8YCEN5"}],
+  37:[{title:"",link:"https://www.bilibili.com/video/BV1SVcXz7EhE/"}],
   38:[{title:"爆改10w的双增压领克，能在锐思跑进1分吗",link:"https://www.bilibili.com/video/BV1sospe8EZg/"}],
   39:[{title:"",link:"https://www.bilibili.com/video/BV1pRUeBWEbZ"}],
   40: [
