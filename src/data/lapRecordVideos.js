@@ -36,30 +36,37 @@ export const lapRecordVideoMap = {
       link: 'https://www.bilibili.com/video/BV1meEBzJE2E/',
     },
   ],
+  8: [{title:"",link:""}],
+  9: [{title:"",link:"https://www.bilibili.com/video/BV141mtBGEiE/"}],
+  10: [{title:"",link:"https://www.bilibili.com/video/BV1XsiXYPEna/"}],
   11: [
     {
       title: '最低配的911，跑赛道快吗？【VTS圈速榜】',
       link: 'https://www.bilibili.com/video/BV1kBWczUEfz/',
     },
   ],
+  12:[{title:"",link:"https://www.bilibili.com/video/BV1gV1eYAEgt/"}],
   13: [
     {
       title: '2.0T的保时捷小跑车到底行不行啊？【VTS圈速榜】',
       link: 'https://www.bilibili.com/video/BV1srQUBgECw/',
     },
   ],
+  14:[{title:"",link:"https://www.bilibili.com/video/BV1u7tieLEDV"}],
   15: [
     {
       title: '【VTS圈速榜】SU7太贵？15万买保时捷987！虽老但快，烂仔严选',
       link: 'https://www.bilibili.com/video/BV11eCzYNEYA/',
     },
   ],
+  16:[{title:"",link:"https://www.bilibili.com/video/BV1fEXNYSEkz"}],
   17: [
     {
       title: '【VTS168】爱丽舍CEC冠军赛车，跑不过菱帅了？',
       link: 'https://www.bilibili.com/video/BV1NCRKYgEk2/',
     },
   ],
+  18:[{title:"",link:"https://www.bilibili.com/video/BV1S1cAzGETz"}],
   19:[{title:"新款BRZ！圈速够快，但不够便宜？【VTS圈速榜】",link:"https://www.bilibili.com/video/BV1DVCnBjEAe/"}],
   20: [
     {
@@ -67,18 +74,24 @@ export const lapRecordVideoMap = {
       link: 'https://www.bilibili.com/video/BV1pZH9zfENX/',
     },
   ],
+  21:[{title:"",link:"https://www.bilibili.com/video/BV14ES4YJELa"}],
+  22:[{title:"",link:"https://www.bilibili.com/video/BV1aozRBgEiZ"}],
   23: [
     {
       title: '12w买台末代V8自吸M3，还有战斗力吗？【VTS圈速榜】',
       link: 'https://www.bilibili.com/video/BV1ajJ7zPEcR/',
     },
   ],
+  24:[{title:"",link:"https://www.bilibili.com/video/BV1fKcPzZEUF"}],
+  25:[{title:"",link:"https://www.bilibili.com/video/BV16af8YzEgz/"}],
+  26:[{title:"",link:"https://www.bilibili.com/video/BV1gwzVYxEqW/"}],
   27: [
     {
       title: '移植了911引擎的Cayman，赛道表现如何？【VTS圈速榜】',
       link: 'https://www.bilibili.com/video/BV1ppLEz5E27/',
     },
   ],
+  28:[{title:"",link:"https://www.bilibili.com/video/BV19ow3enEqM/"}],
   29: [
     {
       title: '教主同款影豹RR复刻版？？【VTS圈速榜】',
@@ -97,6 +110,14 @@ export const lapRecordVideoMap = {
       link: 'https://www.bilibili.com/video/BV1jc8wzxE3b/',
     },
   ],
+  32:[{title:"86和BRZ，是赛道的正确答案吗？【VTS圈速榜】",link:"https://www.bilibili.com/video/BV17Ge2zhE1U"}],
+  33:[{title:"家用奥迪带quattro，赛道表现行不行？【VTS圈速榜】",link:"https://www.bilibili.com/video/BV1kaubz4E16"}],
+  34:[{title:"十几万买AMG！A35够快吗？【VTS圈速榜】",link:"https://www.bilibili.com/video/BV1XEWczaETu"}],
+  35:[{title:"",link:"https://www.bilibili.com/video/BV1noxpeWEXm"}],
+  36:[{title:"",link:""}],
+  37:[{title:"",link:""}],
+  38:[{title:"爆改10w的双增压领克，能在锐思跑进1分吗",link:"https://www.bilibili.com/video/BV1sospe8EZg/"}],
+  39:[{title:"",link:"https://www.bilibili.com/video/BV1pRUeBWEbZ"}],
   40: [
     {
       title: '凯迪拉克CT5，有没有赛道潜力？【VTS圈速榜】',
@@ -139,18 +160,21 @@ export const lapRecordVideoMap = {
       link: 'https://www.bilibili.com/video/BV17AoMYAEF4/',
     },
   ],
+  47:[{title:"",link:"https://www.bilibili.com/video/BV1Vatwz7Eor"}],
   48: [
     {
       title: '移植2.3T的马自达6，做得到人马一体吗？【VTS圈速榜】',
       link: 'https://www.bilibili.com/video/BV1YgFqz3E7J/',
     },
   ],
+  49:[{title:"",link:"https://www.bilibili.com/video/BV1vBGCz8Esq"}],
   50: [
     {
       title: '一辆老富康来跑赛道，勾起了老大的回忆【VTS圈速榜】',
       link: 'https://www.bilibili.com/video/BV16iTNzUESc/',
     },
   ],
+  51:[{title:"",link:"https://www.bilibili.com/video/BV1xsD5YDERH/"}],
   52: [
     {
       title: '爆改十几万的思域FK7，拉胯了？【VTS圈速榜】',

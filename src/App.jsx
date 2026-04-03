@@ -9,7 +9,7 @@ const { useBreakpoint } = Grid
 function renderRecordName(record, className) {
   const firstVideo = record.videos?.[0]
 
-  if (!firstVideo) {
+  if (!firstVideo || !firstVideo.link) {
     return (
       <Text strong className={className}>
         {record.name}
