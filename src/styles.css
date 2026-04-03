@@ -115,6 +115,17 @@ body {
   width: min(300px, 48vw);
 }
 
+.record-link {
+  color: #0958d9;
+  font-weight: 700;
+  text-decoration: none;
+  transition: color 0.2s ease, opacity 0.2s ease;
+}
+
+.record-link:hover {
+  color: #8b1e18;
+}
+
 .ant-table-wrapper .ant-table {
   background: transparent;
 }
@@ -160,6 +171,10 @@ body {
   margin: 0;
   font-size: 22px;
   line-height: 1.05;
+}
+
+.mobile-record-link {
+  display: inline;
 }
 
 .mobile-time-block {

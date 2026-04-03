@@ -1,10 +1,34 @@
 import { useMemo, useState } from 'react'
 import { Card, Col, Grid, Input, Row, Space, Table, Tag, Typography } from 'antd'
 import { SearchOutlined } from '@ant-design/icons'
-import { lapRecords } from './data/lapRecords'
+import { lapRecordsWithVideos } from './data/lapRecordVideos'
 
 const { Title, Paragraph, Text } = Typography
 const { useBreakpoint } = Grid
+
+function renderRecordName(record, className) {
+  const firstVideo = record.videos?.[0]
+
+  if (!firstVideo) {
+    return (
+      <Text strong className={className}>
+        {record.name}
+      </Text>
+    )
+  }
+
+  return (
+    <a
+      href={firstVideo.link}
+      target="_blank"
+      rel="noreferrer"
+      className={className ? `record-link ${className}` : 'record-link'}
+      title={firstVideo.title}
+    >
+      {record.name}
+    </a>
+  )
+}
 
 const columns = [
   {
@@ -21,7 +45,7 @@ const columns = [
     key: 'name',
     width: 220,
     fixed: 'left',
-    render: (value) => <Text strong>{value}</Text>,
+    render: (_, record) => renderRecordName(record),
   },
   {
     title: '排量',
@@ -110,10 +134,10 @@ function App() {
     const query = keyword.trim().toLowerCase()
 
     if (!query) {
-      return lapRecords
+      return lapRecordsWithVideos
     }
 
-    return lapRecords.filter((record) =>
+    return lapRecordsWithVideos.filter((record) =>
       Object.values(record).some((value) =>
         String(value).toLowerCase().includes(query),
       ),
@@ -163,7 +187,7 @@ function App() {
                     <div>
                       <Text className="mobile-rank">#{record.rank}</Text>
                       <Title level={4} className="mobile-record-title">
-                        {record.name}
+                        {renderRecordName(record, 'mobile-record-link')}
                       </Title>
                     </div>
                     <div className="mobile-time-block">
