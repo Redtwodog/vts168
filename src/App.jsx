@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react'
 import { Card, Col, Grid, Input, Row, Space, Table, Tag, Typography } from 'antd'
 import { SearchOutlined } from '@ant-design/icons'
 import { lapRecordsWithVideos } from './data/lapRecordVideos'
+import logo from './static/bilibili.svg'
 
 const { Title, Paragraph, Text } = Typography
 const { useBreakpoint } = Grid
@@ -25,7 +26,7 @@ function renderRecordName(record, className) {
       className={className ? `record-link ${className}` : 'record-link'}
       title={firstVideo.title}
     >
-      {record.name}
+      {record.name} <img src={logo} alt="B站视频链接" className="video-link-icon" />
     </a>
   )
 }

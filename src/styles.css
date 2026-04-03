@@ -120,10 +120,18 @@ body {
   font-weight: 700;
   text-decoration: none;
   transition: color 0.2s ease, opacity 0.2s ease;
+  display: flex;
+  align-items: center;
 }
 
 .record-link:hover {
   color: #8b1e18;
+}
+
+.record-link .video-link-icon {
+  width: 16px;
+  height: 16px;
+  margin-left: 4px;
 }
 
 .ant-table-wrapper .ant-table {
